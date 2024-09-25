@@ -2,13 +2,13 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
-    {
+    nav {
         background-color: steelblue;
         padding: 10px;
     }
     
     nav a {
-        color: steelblue;
+        color: white;
         display: block;
         padding: 20px;
     }
