@@ -1,61 +1,67 @@
-    p {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    
-    nav {
-        background-color: steelblue;
-        padding: 10px;
-    }
-    
-    nav a {
-        color: rgb(249, 247, 247);
-        display: block;
-        padding: 20px;
-    }
-    
-    h1 {
-        color: steelblue;
-    }
-    
-    main img {
-        width: 150px;
-        height: auto;
-        border: 1px solid steelblue;
-        padding: 2px;
-        box-shadow: 0 0 30px gray;
-    }
-    
-    p {
-        padding: 10px;
-    }
-    
-    main {
-        max-width: 840px;
-    }
-    
-    aside {
-        width: 20rem;
-        margin: 1rem;
-        border: 1px solid rgba(74, 72, 72, 0.2);
-        border-radius: 4%;
-        /* 1️⃣ */
-        padding: 1rem;
-        background-color: #f5f2f2;
-        color: #333;
-        text-align: center;
-    }
-    
-    aside img {
-        width: 200px;
-        height: auto;
-    }
-    
-    p {
-        padding: 0;
-    }
-    
-    footer {
-        margin-top: 15px;
-        border-top: 1px solid #000;
-        text-align: center;
-    }
+:root {
+    --font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --primary-color: steelblue;
+    --text-color: #333;
+    --background-color: #f5f2f2;
+    --link-color: rgb(248, 249, 247);
+    --border-color: rgba(74, 72, 72, 0.2);
+    --shadow-color: gray;
+    --max-width: 840px;
+}
+
+p {
+    font-family: var(--font-family);
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+
+nav a {
+    color: var(--link-color);
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid var(--primary-color);
+    padding: 2px;
+    box-shadow: 0 0 30px var(--shadow-color);
+}
+
+p {
+    padding: 10px;
+}
+
+main {
+    max-width: var(--max-width);
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4%;
+    padding: 1rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
