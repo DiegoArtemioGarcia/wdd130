@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+header, footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
 
 :root {
     --font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -37,16 +41,14 @@ h1 {
 
 main img {
     float: right;
-    width: 150px;
+    width: 150px
     height: auto;
     border: 1px solid var(--primary-color);
     padding: 2px;
     box-shadow: 0 0 30px var(--shadow-color);
 }
 
-main {
-    max-width: var(--max-width);
-}
+
 
 aside {
     width: 20em;
