@@ -91,7 +91,7 @@ a {
     width: 100px;
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
-    margin: 5px;
+    margin:3px;
     text-align: center;
     padding: 1%;
     background-color: var(--primary-color);   
