@@ -353,7 +353,7 @@ footer {
     margin-top: 1%;
     background-color: var(--secondary-color);
     padding: 5px;
-    text-align: center;
+    text-align: right;
     color: var(--primary-color);
     padding: 2%;
     margin: 0% auto;
