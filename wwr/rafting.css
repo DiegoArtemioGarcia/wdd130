@@ -87,8 +87,8 @@ a {
 .box{
     box-shadow: inset 0 0 6px var(--secondary-color);
     font-family: var(--font-family);
-    font-size: 3cap;
-    width: 200px;
+    font-size: 2cap;
+    width: 100px;
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
     margin: 5px;
