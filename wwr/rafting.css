@@ -235,7 +235,7 @@ a {
 
 .section-1{
     font-family: var(--font-family);
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     text-align: center;
     align-items: center;
@@ -244,7 +244,7 @@ a {
 
 
 .section-3{font-family: var(--font-family);
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
     text-align: center;
     align-items: center;
