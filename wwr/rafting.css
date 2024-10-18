@@ -30,7 +30,7 @@ body {
     width: 80%;
     justify-content: space-between;
     margin: 15px;
-    margin: 0 auto;
+    margin: auto;
     grid-template-columns: auto auto auto auto auto;
     padding: 1%;
     background-color: var(--secondary-color);
