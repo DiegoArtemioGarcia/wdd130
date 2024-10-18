@@ -265,10 +265,7 @@ a {
     align-items: center;
     justify-content: space-around;
     
-    img {
-       max-width: 320px;
-       max-height: 150px;
-   }
+    
 
 } 
 .adventures-awaits{
