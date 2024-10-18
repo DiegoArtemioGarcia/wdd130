@@ -1,0 +1,394 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: Arial;
+    --font-headings: Arial;
+    --primary-color: #FFD60A;
+    --secondary-color: #003566;
+    --accent-color-1: #ffc300;
+    --accent-color-2: #001d3d;
+    --text-color: #001D3D;
+    --background-color: #333;
+    --link-color: #001D3D;
+    --border-color: #001D3D;
+    --shadow-color: hwb(0 80% 19%);
+    --max-width: 840px;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid-layout{
+    display: grid;
+    width: 80%;
+    justify-content: space-between;
+    margin: 15px;
+    margin: auto;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 1%;
+    background-color: var(--secondary-color);
+}
+    
+
+.box1 {
+    
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    grid-column: 1/2;
+    height: 100%; /* Asegúrate de que box1 tenga altura */
+}
+
+.box1 img {
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+    max-height: 100%; /* Ajustar la altura máxima de la imagen */
+    object-fit: contain; /* Mantener la proporción de la imagen */
+}
+
+.box2 {
+    
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    grid-column: 2/6;
+
+    height: 100%; /* Asegúrate de que box1 tenga altura */
+}
+a {
+    text-decoration: none;
+    /* Quita el subrayado */
+    color: black;
+    font-family: var(--font-family);
+    text-align: center;
+    color: var(--secondary-color);
+    
+}
+.flexbox{
+    display: flex;
+    flex-flow:row wrap;
+    width: 70%;
+    
+    margin: 0 auto;
+    
+    padding:1%;
+    
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    justify-content: space-between;
+    
+
+}
+.box{
+    box-shadow: inset 0 0 6px var(--secondary-color);
+    font-family: var(--font-family);
+    font-size: 2.5cap;
+    width: 160px;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin:3px;
+    text-align: center;
+    padding: 1%;
+    background-color: var(--primary-color);   
+    border-radius: 10px;
+}
+
+
+/* True adventure */
+.grid-hero{
+    position: relative; /* Posición relativa para el contenedor */
+    overflow: hidden; /* Oculta el desbordamiento */
+    grid-template-columns: 20% 40% 20% 20% ;
+    grid-template-rows: auto 350px;
+    display: grid;
+    width: 80%;
+    height: 450px;
+    margin: 1% auto;
+    
+    
+    
+    
+    
+
+}
+.imagen-fondo {
+    position: absolute; /* Posiciona la imagen */
+    top: 0; /* Parte superior */
+    left: 0; /* Parte izquierda */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    object-fit: cover; /* Asegura que la imagen cubra todo el div */
+    z-index: 0; /* Envía la imagen detrás del contenido */
+}
+
+
+.box-a{
+    
+    display: flex; /* Usar flexbox */
+    
+    max-height: 50px; /* Ajustar la altura máxima de la imagen */
+    object-fit: contain; /* Mantener la proporción de la imagen */
+    text-align: center;
+    justify-content: center; /* Centrar horizontalmente */
+    font-family: var(--font-family);
+    margin: 4px;
+    grid-column: 1/6;
+    z-index: 0;
+}
+.box-b{
+    
+    display: flex; /* Usar flexbox */
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+    max-height: 100%; /* Ajustar la altura máxima de la imagen */
+    object-fit: contain; /* Mantener la proporción de la imagen */
+    z-index: 0;
+}
+.box-c{
+    
+    display: flex; /* Usar flexbox */
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+    max-height: 100%; /* Ajustar la altura máxima de la imagen */
+    object-fit: contain; /* Mantener la proporción de la imagen */
+    margin: 4px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    font-family: var(--font-family);
+    color: white;
+}
+.box-d{
+    
+   
+    display: flex; /* Usar flexbox */
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+    max-height: 100%; /* Ajustar la altura máxima de la imagen */
+    object-fit: contain; /* Mantener la proporción de la imagen */
+    margin: 4px;
+    z-index: 0;
+    font-family: var(--font-family);
+}
+
+.happy-image {
+    justify-content: center;
+    /* Alinea la imagen a la izquierda */
+    width: 350px;
+    /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 250px;
+    margin-right: 10px;
+    /* Espacio entre la imagen y el texto */
+    margin-top: 10%;
+}
+.history-image {
+    justify-content: center;
+    /* Alinea la imagen a la izquierda */
+    width: 360px;
+    /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 290px;
+    
+    /* Espacio entre la imagen y el texto */
+    margin-top:4%;
+}
+
+.box-e{
+
+    display: flex; /* Usar flexbox */
+    max-width: 100%; /* Ajustar el ancho máximo de la imagen */
+    max-height: 100%; /* Ajustar la altura máxima de la imagen */
+    object-fit: contain; /* Mantener la proporción de la imagen */
+    margin: 4px;
+    z-index: 0;
+}
+
+/* HISTORY SECTION*/
+.flex-section{
+    display: grid;
+    width: 80%;
+    height: 450px;
+    
+    margin: 1% auto;
+    padding: 1%;
+   
+    background-color: var(--secondary-color);
+    grid-template-columns: 38% 20% 38%;
+    grid-template-rows: 15% 80%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 130%;
+}
+.history{
+    
+    display: flex; /* Usar flexbox */
+    
+    max-height: 50px; /* Ajustar la altura máxima de la imagen */
+    
+    text-align: center;
+    justify-content: center; /* Centrar horizontalmente */
+    
+    margin: 4px;
+    grid-column: 1/4;
+    z-index: 0;
+}
+
+
+.section-1{
+    font-family: var(--font-family);
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    justify-content: space-between;
+}
+.section-2{
+    font-family: var(--font-family);
+    font-size: 1em;
+    color: white;
+    
+    
+    padding: 20px;
+    justify-content: space-around;
+}
+
+
+.section-3{
+    font-family: var(--font-family);
+    font-size: 1em;
+    color: white;
+    text-align: center;
+   
+    padding: 60px;
+    justify-content: space-between;
+}
+    
+    
+
+
+.adventure-section{
+    display: grid;
+    width: 80%;
+    height: auto;
+    
+    margin: 1% auto;
+    padding: 1%;
+   
+    
+    grid-template-columns: auto auto auto auto auto auto;
+    
+    align-items: center;
+    justify-content: space-around;
+    
+    
+
+} 
+.adventures-awaits{
+    display: flex; /* Usar flexbox */
+    
+    max-height: 50px; /* Ajustar la altura máxima de la imagen */
+    object-fit: contain; /* Mantener la proporción de la imagen */
+    text-align: center;
+    justify-content: center; /* Centrar horizontalmente */
+    
+    margin: 4px;
+    grid-column: 1/7;
+    z-index: 0;
+    
+
+}
+
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+
+
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+
+h1{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2em;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+    background-color: rgba(34, 35, 35, 0.487);
+    z-index: 10;
+    /* Asegúrate de que esté por encima de la imagen */
+    font-family: var(--font-family);
+    color: white;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15%;
+    font-size: 2em;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+    
+    z-index: 0;
+    /* Asegúrate de que esté por encima de la imagen */
+    font-family: var(--font-family);
+    color: rgb(232, 244, 6);
+    font-weight: lighter;
+}
+.h2adventure{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15%;
+    font-size: 2em;
+    /* Ajusta el tamaño de la fuente según tus necesidades */
+    
+   
+    font-family: var(--font-family);
+    color: rgb(2, 2, 2);
+    font-weight: bolder;
+}
+
+footer {
+    max-width: 80%;
+    margin-top: 1%;
+    background-color: var(--secondary-color);
+    padding: 5px;
+    text-align: right;
+    color: var(--primary-color);
+    padding: 2%;
+    margin: 0% auto;
+    margin-bottom: 2%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer img {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+p {
+    font-family: var(--font-family)
+   color: white
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra del texto */
+   font-size: x-large;
+}
+
