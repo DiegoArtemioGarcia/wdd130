@@ -23,7 +23,9 @@
 
 
 
-body {
+body {display: grid;
+    width: auto;
+    margin: auto;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -44,7 +46,11 @@ body {
 }
 
 .contact-grid div{
-     display: grid;
+    display: grid;
+    width: auto;
+    margin: auto;
+    padding: 1%;
+     
     background-color: rgb(229, 230, 230);
     text-align: center;
     
@@ -54,11 +60,18 @@ body {
 }
 
 .contact_us{
+    display: grid;
+    width: auto;
+    margin: auto;
     grid-column:1/4 ;
     text-align: center;
     
 }
 .map{
+    
+    display: grid;
+    width: 80%;
+    margin: auto;
     grid-column:1/4 ;
     margin-bottom: 1%;
     
@@ -89,7 +102,7 @@ p{
 .flex-form{
     
     display: grid;
-    width: 30%;
+    width: 80%;
     margin: auto;
     justify-content: center;
     border-radius: 15px;
@@ -256,9 +269,9 @@ a {
     align-items: center;
     z-index: 0;
     font-family: var(--font-family);
-    color: var(--accent-color-1);
+    color: cornsilk;
     font-size: 1.6em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Sombra del texto */
+    text-shadow: 2px 2px 4px rgba(1, 2, 1, 1); /* Sombra del texto */
 }
 .box-d{
     
@@ -463,15 +476,17 @@ h2{
 }
 
 footer {
-    max-width: 80%;
-    margin-top: 1%;
+    
+    display: grid;
+    width: 80%;
+    margin: auto;
     background-color: var(--secondary-color);
-    padding: 5px;
+   
     text-align: right;
     color: var(--primary-color);
     padding: 2%;
-    margin: 0% auto;
-    margin-bottom: 2%;
+    
+    
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
