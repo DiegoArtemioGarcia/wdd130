@@ -32,7 +32,6 @@ body {display: grid;
 
 
 .contact-grid{
-    
     display: grid;
     width: 80%;
     margin: auto;
@@ -48,12 +47,9 @@ body {display: grid;
 
 .contact-grid div{
     display: grid;
-    
+    width: auto;
     margin: auto;
     padding: 1%;
-    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
-    height: auto; /* Mantener la proporción de la imagen */
-    border-radius: 5px; /* Bordes redondeados para las imágenes */
      
     background-color: rgb(229, 230, 230);
     text-align: center;
@@ -526,16 +522,13 @@ footer img {
     display: grid;
     width: 80%;
     margin: auto;
+    
     background-color:var(--secondary-color);
+    padding: 20px;
     text-align: center;
     color: var(--primary-color);
     
 }
-.form{
-    margin-top: -10%;
-    margin-bottom: -8%;
-}
-
 
 .call-to-action {
     
@@ -650,4 +643,5 @@ h3{
     margin-top: 2%;
     margin-bottom: 1%;
 }
+
 
